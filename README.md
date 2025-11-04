@@ -6,7 +6,7 @@ Prepared and tested in a controlled lab environment.
 ---
 
 ## 🚩 What This Guide Is For
-**Goal:** Identify the root causes and repair common Windows boot problems such as (corrupt BCD/MBR, disk errors, failed updates, driver issues).  
+**Goal:** Identify the causes and repair common Windows boot problems such as (corrupt BCD/MBR, disk errors, failed updates, driver issues).  
 **Target audience:** Anyone learning IT or interested in desktop / helpdesk support.<br> 
 **Estimated time:** 30–90 minutes (depending on how bad the system is)
 
@@ -25,7 +25,7 @@ Prepared and tested in a controlled lab environment.
 - Windows installation USB or ISO if you're using a VM (virtual machine) 
 - Access to BIOS/UEFI  
 - Administrator Command Prompt (through recovery mode)
-- Optional: spare SATA cable or a known good drive if you suspect hardware issues
+- Optional: Spare SATA cable or a known good drive if you suspect hardware issues
 
 ---
 
@@ -34,7 +34,7 @@ Prepared and tested in a controlled lab environment.
 2. Can you get into the WinRE (Windows Recovery Environment)?  
 3. Is it a hardware issue (bad drive, faulty cable, faulty RAM) or is it a software one (corrupted boot files, corrupted updates, etc?)
 
----
+----
 
 ## ✅ Fix Steps (Do these in order)
 
