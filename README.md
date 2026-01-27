@@ -4,13 +4,13 @@
 Prepared and tested in a controlled lab environment.  
 
 
-## 🚩 What This Guide Is For
+## What This Guide Is For
 **Goal:** Identify the causes and repair common Windows boot problems such as (corrupt BCD/MBR, disk errors, failed updates, driver issues).  
 **Target audience:** Anyone learning IT or interested in desktop / helpdesk support.<br> 
 **Estimated time:** 30–90 minutes (depending on how bad the system is)
 
 
-## 📋 Common Symptoms
+## Common Symptoms
 - Stuck at Windows logo with a spinning circle  
 - The message "Automatic Repair couldn't repair your PC"  
 - Black screen with a blinking cursor  
@@ -18,20 +18,20 @@ Prepared and tested in a controlled lab environment.
 - The messages "No boot device found" or "Bootmgr is missing"
 
 
-## 🛠 Prerequisites
+## Prerequisites
 - Windows installation USB or ISO if you're using a VM (virtual machine) 
 - Access to BIOS/UEFI  
 - Administrator Command Prompt (through recovery mode)
 - Optional: Spare SATA cable or a known good drive if you suspect hardware issues
 
 
-## 🔍 Quick Checklist
+## Quick Checklist
 1. Does the BIOS/UEFI detect the Hard Drive (HDD) or Solid State Drive? (SSD)
 2. Can you get into the WinRE (Windows Recovery Environment)?  
 3. Is it a hardware issue (bad drive, faulty cable, faulty RAM) or is it a software one (corrupted boot files, corrupted updates, etc?)
 
 
-## ✅ Fix Steps (Do these in order)
+## Fix Steps (Do these in order)
 
 ### 1 — Hardware & BIOS check
 1. Completely power the PC off, unplug it and wait 10 seconds before plugging it back in.
